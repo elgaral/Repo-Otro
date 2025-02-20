@@ -2,7 +2,9 @@ import numpy as np
 import pylab as plt
 
 x = np.linspace(0,10,100)
-y = np.cos(x)
+y = np.cos(np.pi*x/10)
+
+
 
 
 plt.figure()
