@@ -1,7 +1,10 @@
 import numpy as np
 import pylab as plt
 
+
 x = np.linspace(0,10,100)
+x*np.pi
+
 y = np.cos(x)
 
 
