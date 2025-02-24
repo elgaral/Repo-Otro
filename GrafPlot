@@ -1,11 +1,11 @@
+# Se llama las librerias
 import numpy as np
 import pylab as plt
 
+# Se definen las variables
 x = np.linspace(0,10,100)
-y = np.cos(np.pi*x/10)
+y = np.sin(np.pi*x/10)
 
-
-
-
+# Se realiza la gráfica
 plt.figure()
 plt.plot(x,y)
